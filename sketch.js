@@ -58,6 +58,7 @@ let paso = 0;
 
 function pasarPaso(num){
     if(num>paso){
+        paso = num;
         document.getElementById("paso" + num).style.visibility = "visible"
 
     switch(num){
