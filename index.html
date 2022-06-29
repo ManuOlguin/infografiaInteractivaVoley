@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CARRERA DE SALTO Y REMATE EN VOLEY</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Akshar:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/b8e27a3138.js" crossorigin="anonymous"></script>
+
+</head>
+<body onload="javascript:doIt()">
+    <div class="contenedor">
+        <div id="info">
+        <p>Esto es una infografía interactiva, toca los </p><a class="flecha-y valign"><i class="fa-solid fa-arrow-right"></i></a><p> para avanzar en el contenido</p>
+        </div>
+        <h1>CARRERA DE SALTO Y REMATE EN VOLEY</h1>
+        <div id="subtitulo"><h2>Carrera de salto</h2><a href="javascript:pasarPaso(1)" class="flecha-y"><i class="fa-solid fa-arrow-down"></i></a></div>
+        <section class="margin-14-top flex-row">
+            <article class="max-height-181" id="paso1">
+                <h3>Inicio</h3>
+                <p>Posicionate mirando a la pelota y dobla tus rodillas ligeramente para estar preparado para moverte. 
+                    Si sos diestro pone el pie izquierdo atras, si sos zurdo, el derecho.</p>
+                <a href="javascript:pasarPaso(2)" class="flecha-x"><i class="fa-solid fa-arrow-right"></i></a>
+            </article>
+            <article class="max-height-181" id="paso2">
+                <h3>Primer paso</h3>
+                <p>Observá la dirección del armado y toma un pequeño paso con tu pie trasero hacia donde preveas que se puede dirigir la pelota</p>
+                <a href="javascript:pasarPaso(3)" class="flecha-x"><i class="fa-solid fa-arrow-right"></i></a>
+            </article>
+            <article id="paso3">
+                <h3>Segundo paso</h3>
+                <p>Da otro paso con tu pie habil para generar velocidad. Al mismo tiempo tira tus brazos hacia atras para prepararte para el remate. La distancia de este paso va a variar de la posición de la pelota</p>
+                <a href="javascript:pasarPaso(4)" class="flecha-y"><i class="fa-solid fa-arrow-down"></i></a>
+            </article>  
+        </section>
+        <section class="flex-row">
+                <img style="height: 288px; width: 660px; object-fit: cover; background-color: aquamarine; margin-top: 5px;" src="assets/foto1.jpg" id="animacion1" alt="animacion de voley">
+            <div class="flexcolumn">
+                <article class="margin-20-top max-height-181" id="paso4">
+                    <h3>Salto e impulso con los brazos</h3>
+                    <p>A la vez que tu paso termina, trae tu otro pie hacia adelante y juntalos. Inmediatamente saltá hacia arriba, impulsandote con el movimiento de tus brazos</p>
+                    <a href="javascript:pasarPaso(5)" class="flecha-y"><i class="fa-solid fa-arrow-down"></i></a>
+                </article>  
+                <div style="text-align: center; position: relative; margin-top: 35px;" id="paso5">
+                    <h2>Remate</h2>
+                    <a href="javascript:pasarPaso(6)" style="display: inline-block;" class="flecha-y"><i class="fa-solid fa-arrow-down"></i></a>
+                </div>
+            </div>
+        </section>
+        <section style="margin-top: 10px;" class="flex-row" id="paso8">
+            <article class="max-height-181">
+                <h3>Caida</h3>
+                <p>Dobla tus rodillas cuando tus pies toquen el piso para ganar balance y evitar lesiones. Tambien asegurate de caer sobre tu lado de la cancha procurando no pisar la linea.</p>
+                    <a href="javascript:pasarPaso(9)" class="flecha-y"><i class="fa-solid fa-arrow-down"></i></a>
+            </article>
+            <article class="max-height-181" id="paso7">
+                <h3>Latigazo</h3>
+                <p>Mantené tu mano abierta con tus dedos juntos. Cuando sea el momento “latigueá” tu brazo hacia adelante con toda tu fuerza y hace contacto en la pelota con la palma de tu mano. A la vez doblá tu muñeca para dirigir el remate hacia abajo</p>
+                <a href="javascript:pasarPaso(8)" class="flecha-x2"><i class="fa-solid fa-arrow-left"></i></a>
+            </article>
+            <article id="paso6">
+                <h3>Posición de los brazos</h3>
+                <p>Cuando alcances la altura maxima de tu salto tu brazo habil deberia estar flexionado a la altura de tu cabeza con tu hombro rotado hacia atras. Tu otro brazo debería estar recto apuntando hacia donde vas a hacer tu remate</p>
+                <a href="javascript:pasarPaso(7)" class="flecha-x2"><i class="fa-solid fa-arrow-left"></i></a>
+            </article>  
+        </section>
+        <section style="margin-top: 35px; " class="flex-row">
+            <div id="paso9">
+            <article id="articuloExtra">
+                <h3>Infografia interactiva realizada por Manuel Olguin</h3>
+                <p>Para mas infografias interactivas visitar @manu.olguin</p>
+                <a target="_blank" href="https://www.instagram.com/manu.olguin/"><i class="fa-brands fa-instagram"></i></a>
+            </article>
+            </div>
+            <img style="height: 288px; width: 660px; object-fit: cover; background-color: aquamarine; margin-top: 5px;" src="assets/foto21.jpg" id="animacion2" alt="animacion de voley">
+
+
+        </section>
+        <div id="alerta" class="box2 sb10">Tocá los botones con flechitas para avanzar en el contenido</div>
+
+        <script src="sketch.js"></script>
+    </body>
+</html>
